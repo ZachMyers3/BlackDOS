@@ -1,3 +1,7 @@
+blackDOS is a simple console based OS written in ANSI C.
+The core functions are located in the kernel.c file.
+To run bochs emulator and bcc compiler must be installed (linux).
+
 This is my completed version of part 2 of the project.
 
 To test the current version:
