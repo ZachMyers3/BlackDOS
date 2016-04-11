@@ -14,9 +14,10 @@ bcc -ansi -c -o kitty.o kitty.c
 ld86 -o kitty -d kitty.o lib_asm.o
 bcc -ansi -c -o cal.o cal.c
 ld86 -o cal -d cal.o lib_asm.o
+bcc -ansi -c -o Shell.o Shell.c
+ld86 -o Shell -d Shell.o lib_asm.o
 ./loadFile msg
-./loadFile test1
-./loadFile test2
 ./loadFile fib
 ./loadFile kitty
 ./loadFile cal
+./loadFile Shell
